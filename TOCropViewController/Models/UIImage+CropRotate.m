@@ -66,7 +66,7 @@
     }
     UIGraphicsEndImageContext();
     
-    return [UIImage imageWithCGImage:croppedImage.CGImage scale:[UIScreen mainScreen].scale orientation:UIImageOrientationUp];
+    return [UIImage imageWithCGImage:croppedImage.CGImage scale:1 orientation:UIImageOrientationUp];
 }
 
 
